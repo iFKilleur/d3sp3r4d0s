@@ -4,7 +4,7 @@
 
 	var prefix = "=";
 
-	client.login("NTA5NjI1MzQ4NzQxMjY3NDgx.DsQihw.3lYLjjm7IIVpAEJk52n185kdGHg");
+	client.login(process.env.D3SP3);
 
 	client.on("ready", () => {
 		console.log("Bot connected");
