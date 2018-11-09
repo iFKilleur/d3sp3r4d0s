@@ -21,7 +21,7 @@
         if(message.content === prefix + "aide"){
             var help_embed = new Discord.RichEmbed()
             .setTitle("Vous avez ouvert mon menu d'aide")
-            .setThumbnail(message.guild.avatarURL) //Mettre message.author.avatarURL si ça marche pas
+            .setThumbnail(message.author.avatarURL)
             .setDescription("Tout d'abord sachez que je suis un bot de Modération!")
             .setColor("#69ea38")
             .addField("=aide", "Affiche ce panel avec toutes les commandes disponibles")
