@@ -39,7 +39,7 @@
             .setTitle("Tu verras ici toutes les informations liées à moi!")
             .addField(":robot: Nom :", `${client.user.tag}`, true)
             .addField(":hash: Descriminateur du bot :", `#${client.user.discriminator}`, true)
-            .addField(":id: ID :", `${client.user.id}`, true)
+            .addField(":id: ID :", `${client.user.id}`)
             .addField(":video_game: Utilisateurs du bot :", `${client.users.size}`, true)
             .addField(":clipboard: Nombre de catégories et de salons :", `${client.channels.size}`, true)
             .addField(":game_die: Serveurs où le bot est installés :", `${client.guilds.size}`, true)
