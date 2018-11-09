@@ -43,7 +43,7 @@
             .addField("Nombre de membres", message.guild.members.size)
             .addField("Nombre de catégorie et de salons", message.guild.channels.size)
             .setFooter("Ce bot a été créé par iFKilleur#8181")
-            message.channel.sendMessage(info_embed)
+            message.channel.sendMessage(info_embed);
             console.log("Un utilisateur a fait la commande d'information")
         }
         
