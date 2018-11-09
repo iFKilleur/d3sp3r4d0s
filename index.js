@@ -36,15 +36,17 @@
         if(message.content === prefix + "info") {
             var info_embed = new Discord.RichEmbed()
             .setColor("#b7fc00")
-            .setTitle("Tu verras ici toutes les informations liées au serveur et à toi !")
+            .setTitle("Tu verras ici toutes les informations liées à moi!")
             .addField(":robot: Nom :", `${client.user.tag}`, true)
-            .addField("Descriminateur du bot :hash:", `#${client.user.discriminator}`)
-            .addField(":id:", `${client.user.id}`)
-            .addField("Nombre de membres", message.guild.members.size)
-            .addField("Nombre de catégorie et de salons", message.guild.channels.size)
+            .addField(":hash: Descriminateur du bot :", `#${client.user.discriminator}`)
+            .addField(":id: ID :", `${client.user.id}`)
+            .addField(":video_game: Utilisateurs du bot :", `${client.users.size}`, true)
+            .addField(":clipboard: Nombre de catégories et de salons :", `${client.channels.size}`, true)
+            .addField(":game_die: Serveurs où le bot est installés :", `${client.guilds.size}`, true)
             .setFooter("Ce bot a été créé par iFKilleur#8181")
             message.channel.sendMessage(info_embed);
             console.log("Un utilisateur a fait la commande d'information")
+
         }
         
         if (!message.content.startsWith(prefix)) return;
