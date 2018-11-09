@@ -35,7 +35,7 @@
 
         if(message.content === prefix + "info") {
             var info_embed = new Discord.RichEmbed()
-            .setColor(b7fc00)
+            .setColor("#b7fc00")
             .setTitle("Tu verras ici toutes les informations liées au serveur et à toi !")
             .addField(":robot: Nom :", `${client.user.tag}`, true)
             .addField("Descriminateur du bot :hash:", `#${client.user.discriminator}`)
