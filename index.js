@@ -51,7 +51,7 @@
             if(!message.guild.member(message.author).hasPermission("KICK_MEMBERS")) return message.channel.send("Vous n'avez pas les permissions requises pour faire ceci !")
 
             if(message.mentions.users.size === 0) {
-                return message.channel.send("Vous venez de mentionner un utilisateur valide !");
+                return message.channel.send("Vous devez mentionner un utilisateur valide !");
             }
 
             var kick = message.guild.member(message.mentions.users.first());
