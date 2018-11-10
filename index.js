@@ -14,6 +14,11 @@
     client.on('message', message => {
 
         if(message.content === prefix + "Hey"){
+            message.reply(":heartpulse:");
+            console.log("Un utilisateur a effectué la commande d'amour !");
+        }
+
+	if(message.content === prefix + "keur"){
             message.reply("tu es moche va-t-en !");
             console.log("Un utilisateur a effectué la commande de message");
         }
