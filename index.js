@@ -97,7 +97,7 @@
 
             if(!args[0]) return message.channel.send("Tu dois préciser le nombre de message que tu veux supprimer !")
             message.channel.bulkDelete(args[0]).then(() => {
-                message.channel.send(`${args[0]} a/ont été supprimé(s) !`)
+                message.channel.send(`${args[0]} messages ont été supprimés !`)
                 console.log(`${message.author.username} a clear des messages !`)
             });
         }
