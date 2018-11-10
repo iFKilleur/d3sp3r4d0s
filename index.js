@@ -15,7 +15,7 @@
         }
 
 	if(message.content === prefix + "keur"){
-            message.channel.send(":heartpulse:");
+            message.reply(":heartpulse:");
             console.log("Un utilisateur a effectué la commande de message");
         };
 
