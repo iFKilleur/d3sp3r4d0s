@@ -26,7 +26,7 @@
             .setDescription("Tout d'abord sachez que je suis un bot de Modération!")
             .setColor("#69ea38")
             .addField("=aide", "Affiche ce pannel avec toutes les commandes disponibles")
-            .addField("=hey", "Je te répondrai de manière très romantique ou pas")
+            .addField("=keur", "Tu sauras ce que je ressens pour toi !")
             .addField("=statistiques", "Vous saurez davantage de chose sur vous après !")
             .addField("=info", "Vous donne tout ce que vous devez savoir sur moi")
             .setFooter("Ce bot a été créé par iFKilleur#8181")
