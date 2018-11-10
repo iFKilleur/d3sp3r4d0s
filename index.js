@@ -154,7 +154,7 @@
             .setTitle(`Statistique de l'utilisateur : ${message.author.username}`)
             .setColor("#b7fc00")
             .addField(`ID de l'utilisateur :id:`, msgauthor, true)
-            .addField("Date de création du compte", userCreateDate[1] + ' ' + userCreateDate[2] + ' ' + userCreateDate[3])
+            .addField("Date de création du compte", userCreateDate[2] + ' ' + userCreateDate[1] + ' ' + userCreateDate[3])
             .setThumbnail(message.author.avatarURL)
             .setFooter("Ce bot a été créé par iFKilleur#8181")
             message.reply("Tu viens de recevoir tes statistiques en privé !")
