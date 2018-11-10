@@ -14,10 +14,10 @@
     client.on('message', message => {
         }
 
-	if(message.content === prefix + "keur"){
+        if(message.content === prefix + "keur){
             message.reply(":heartpulse:");
             console.log("Un utilisateur a effectué la commande de message");
-        };
+}
 
         if(message.content === prefix + "aide"){
             var help_embed = new Discord.RichEmbed()
