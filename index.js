@@ -15,7 +15,7 @@
 
         if(message.content === prefix + "keur"){
             message.channel.send(":heartpulse:");
-            console.log("Un utilisateur a effectué la commande de message");
+            console.log("Un utilisateur a effectué la commande de keur");
 	}
 
         if(message.content === prefix + "aide"){
