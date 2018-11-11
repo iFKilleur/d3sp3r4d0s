@@ -14,7 +14,7 @@
     client.on('message', message => {
 
         if(message.content === prefix + "keur"){
-            message.reply(":heartpulse:");
+            message.channel.send(":heartpulse:");
             console.log("Un utilisateur a effectué la commande de message");
 	}
 
